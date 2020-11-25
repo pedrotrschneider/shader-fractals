@@ -35,7 +35,7 @@ Ele possui dimensão fractal (de Hausdorff) de:
 <br/>
 1. Comece com um triângulo em um plano (canonicamente, foi utilizado um triângulo equilátero, mas esses processo pode ser feito utilizando qualquer tipo de triângulo).
 2. Diminua o tamanho do triângulo até que seus lados tenham metade do tamanho original e faça três cópias do triângulo menor, dispondo-as de forma que cada uma encoste em um vértice das outras.
-3. repita o passo 2 para cada nove figura formada infinitas vezes e você terá o fractal!
+3. Repita o passo 2 para cada nove figura formada infinitas vezes e você terá o fractal!
 
 A primeira iteração deste loop resultará em um triângulo de nível 1, a segunda resultará em um triângulo de nível 2, e assim por diante. O Triângulo de Sierpinski é o resultado de infinitas iterações.
 
@@ -189,9 +189,9 @@ Infelizmente, o algoritimo original que usei para fazer o vídeo foi perdido, e 
 <br/>
 Há diversos ótimos recursos para aprender sobre estes conceitos, e eles são todos mencionados nas documentações espcíficas dos shaders. Para todos os fractais tridimensionais, os recursos usados foram:
 <br/>
-- Inigo Quilez: http://iquilezles.org​
-- Sebastian Lague: https://www.youtube.com/user/Cercopithecan
-- Code Parade: https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw
+- [Inigo Quilez](http://iquilezles.org​)
+- [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)
+- [Code Parade](https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw)
 
 ### Cogumelo de Menger
 
@@ -205,9 +205,9 @@ Diferente do que aconteceu como o Brócolis de Menger, o shader neste repositór
 <br/>
 Há diversos ótimos recursos para aprender sobre estes conceitos, e eles são todos mencionados nas documentações espcíficas dos shaders. Para todos os fractais tridimensionais, os recursos usados foram:
 <br/>
-- Inigo Quilez: http://iquilezles.org​
-- Sebastian Lague: https://www.youtube.com/user/Cercopithecan
-- Code Parade: https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw
+- [Inigo Quilez](http://iquilezles.org​)
+- [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)
+- [Code Parade](https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw)
 
 ### Mandelbulb
 
