@@ -16,8 +16,8 @@ Um repositório contendo diversos shaders em GLSL que renderizam fractais em dua
   - [Esponja Menger](#esponja-de-menger)
   - [Brócolis de Menger](#brócolis-de-menger)
   - [Cogumelo de Menger](#cogumelo-de-menger)
-  - [Mandelbulb](#-mandelbulb)
-  - [Mandelbox](#-mandelbox)
+  - [Mandelbulb](#mandelbulb)
+  - [Mandelbox](#mandelbox)
 
 ## Fractais 2D
 
