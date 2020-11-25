@@ -193,7 +193,7 @@ Há diversos ótimos recursos para aprender sobre estes conceitos, e eles são t
 - Sebastian Lague: https://www.youtube.com/user/Cercopithecan
 - Code Parade: https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw
 
-### Cogumenlo de Menger
+### Cogumelo de Menger
 
 ![gif](./media/menger_mushroom.gif)
 
