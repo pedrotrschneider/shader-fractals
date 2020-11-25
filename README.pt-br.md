@@ -99,7 +99,7 @@ Ele possui dimensão fractal (de Hausdorff) de:
 <br/>
 Um número complexo c pertence ao conjunto de mandelbrot se a função:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z) = z^2 + c"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
 
 não diverge com z começando na origem quando iterada infinitas vezes.
 <br/>
@@ -115,7 +115,7 @@ Aplicando esta recursão para cada número complexo correspondente a cada pixel 
 
 📌 Definimos:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z) = z^2 + c"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
 
 onde z e c são números no plano dos complexos. O conjunto de Julia pode ser então definido como o conjunto de números complexos z que, sob iteração em f<sub>c</sub> não divergem.
 <br/>
@@ -223,13 +223,13 @@ Isso, no entanto, foi apenas conjecturado, e ainda não foi provado.
 
 🎨 O Mandelbulb é definido como um conjunto de pontos c no ℝ<sup>3</sup> que, sob iteração da função:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(v) = v^n + c"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(v)=v^n+c"/>
 
 com v começando em (0, 0, 0) não diverge.
 <br/>
 A n<sup>ésima</sup> potência do vetor v = (x, y, z)  no ℝ<sup>3</sup> é definida como:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;v^n := r^n (\sin{(n\theta)} \cos{(n\phi)}, \sin{(n\theta)} \sin{(n\phi)}, \cos{(n\theta)})"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;v^n:=r^n(\sin{(n\theta)}\cos{(n\phi)},\sin{(n\theta)}\sin{(n\phi)},\cos{(n\theta)})"/>
 
 Onde:
 

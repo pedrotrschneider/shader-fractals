@@ -117,7 +117,7 @@ All pixel coordinates should be normalized to not exceed |2| on any axis, since 
 
 📌 Let:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z) = z^2 + c"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
 
 where z and c are numbers on the complex plane. The Julia set can then be defined as the set of complex numbers z that under infinite iteration by f<sub>c</sub> do not diverge.
 <br/>
@@ -225,13 +225,13 @@ This is, however, only been conjectured, and has not been proven as of the creat
 
 🎨 The Mandelbulb is defined as the set o points c in  ℝ<sup>3</sup> that, under the iteratoin of the function:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(v) = v^n + c"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(v)=v^n+c"/>
 
 with v starting at (0, 0, 0) does not diverge.
 <br/>
 The n<sup>th</sup> power of the vector v = (x, y, z) in ℝ<sup>3</sup> is defined as:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;v^n := r^n (\sin{(n\theta)} \cos{(n\phi)}, \sin{(n\theta)} \sin{(n\phi)}, \cos{(n\theta)})"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;v^n:=r^n(\sin{(n\theta)}\cos{(n\phi)},\sin{(n\theta)}\sin{(n\phi)},\cos{(n\theta)})"/>
 
 Where:
 
