@@ -18,8 +18,8 @@ Versão em PT-BR 🇧🇷 desse documento: [clique aqui](./README.pt-br.md)
   - [Menger Sponge](#menger-sponge)
   - [Menger Brocolli](#menger-brocolli)
   - [Menger Mushroom](#menger-mushroom)
-  - [Mandelbulb](#-mandelbulb)
-  - [Mandelbox](#-mandelbox)
+  - [Mandelbulb](#mandelbulb)
+  - [Mandelbox](#mandelbox)
 
 ## 2D Fractals
 
