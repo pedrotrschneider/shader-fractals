@@ -34,9 +34,7 @@ A repository containing various GLSL Shaders that render 2D and 3D fractals.
 🎨 To construct the Sierpinski Triangle you can follow these steps:
 <br/>
 1. Start with a tringle on a plane (canonically, an equilateral triangle was used, but any sort of triangle will do just fine).
-<br/>
 2. Shrink the triangle until it's sides are half the original size and make three copies of the small version, placing them so that each one touches the others on one vertex.
-<br/>
 3. Repeat step 2 for each new figure infinite times and you'll have the fractal!
 
 The first iteration of this loop gives you a level-1 triangle, the second one gives you a level-2 triangle, and so on. The Sierpinski Triangle is the resulting shape after infinite iterations.
@@ -56,9 +54,7 @@ It is a two-dimensional generalization of the one-dimensional Cantor Set.
 🎨 To construct the Sierpinski Carpet you can follow these steps:
 <br/>
 1. Start with a square on a plane.
-<br/>
 2. Subdivide it in 9 equal parts and remove the central square so that you are left with 8 squares.
-<br/>
 3. Repeat step 2 infinite times for all remaining squares and you'll have the fractal!
 
 The first iteration of this loop gives you a level-1 carpet, the second one gives you a level-2 carpet, and so on. The Sierpinski Carpet is the resulting shape after infinite iterations.
@@ -76,13 +72,9 @@ The first iteration of this loop gives you a level-1 carpet, the second one give
 🎨 To construct the Koch Curve you can follow these steps:
 <br/>
 1. Star with either a line segment or an equilateral triangle. Now, repeat the next steps recursively for each line segment you draw.
-<br/>
 2. Divide the line segment into three equal-sized line segments.
-<br/>
 3. Use the middle segment as the base for an equilateral triangle that points outward (if you started with a triangle; otherwise, just choose one direction to be "outward").
-<br/>
 4. Remove the line segment used as the base for the triangle.
-<br/>
 5. Repeat steps 2 to 4 infinite times for each individual line segment and you'll have the fractal!
 
 The first iteration of this loop gives you a level-1 curve, the second one gives you a level-2 curve, and so on. The Koch Curve is the resulting shape after infinite iterations.
@@ -158,11 +150,8 @@ By changing the complex c chosen, you can get different images. Interestingly, i
 🎨 The construction process for a Tetrix is very simmilar to that of the Sierpinski Triangle:
 <br/>
 1. Start with a tetraheadron of side-length L.
-<br/>
 2. Shrink it to half its original height.
-<br/>
 3. Put toghether four copies of the half-height tetraheadron, so that each of them touch each other in one vertex.
-<br/>
 4. Repeat steps 2 and 3 for the new shapes each iteration.
 
 The first iteration of this loop will give you a level-1 tetraheadron, the second one will give you a level-2 tetraheadron, and so on. The Sierpinski Tetraheadron itself is the resulting shape after infinite iterations.
@@ -182,11 +171,8 @@ A similar fractal can be constructed using a square-based pyramid as its base.
 🎨 You can construct the Menger Sponge with the following steps:
 <br/>
 1. Start with a cube.
-<br/>
 2. Subdivide each face of the cube in 9 equal sized suqares, like in a Rubik's Cube. This will subdivide the cube in 27 smaller cubes.
-<br/>
 3. Remove the smaller cubes on the center of each face, and the smaller cube on the very center of the larger cube (leaving a total of 20 cubes).
-<br/>
 4. Now, repeat steps 2 and 3 for each smaller cube infinite times an you have the fractal!
 
 The first iteration of this loop gives you a level-1 sponge, the second one gives you a level-2 sponge, and so on. The Menger Sponge itself is the resulting shape after infinite iterations.
