@@ -5,6 +5,8 @@
 
 A repository containing various GLSL Shaders that render 2D and 3D fractals.
 
+Versão em PT-BR 🇧🇷 desse documento: [clique aqui](./README.pt-br.md)
+
 - [2D Fractals](#2d-fractals)
   - [Sierpinski Triangle](#sierpinski-triangle)
   - [Sierpinski Carpet](#sierpinski-carpet)
