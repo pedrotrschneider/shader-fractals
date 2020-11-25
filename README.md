@@ -101,7 +101,7 @@ Formal mathematical studies of the Mandelbrot set only began in 1985, with the w
 <br/>
 A complex c belongs to the Mandelbrot set if the function:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z) = z^2 + c"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
 
 does not diverge with z starting at 0 when under infinite recursion.
 <br/>
