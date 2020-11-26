@@ -5,6 +5,7 @@
 
 Um repositório contendo diversos shaders em GLSL que renderizam fractais em duas e três dimensões.
 
+- [Como compilar](#como-compilar)
 - [Fractais 2D](#fractais-2d)
   - [Triângulo de Sierpinski](#triângulo-de-sierpinski)
   - [Carpete de Sierpinski](#carpete-de-sierpinski)
@@ -18,6 +19,17 @@ Um repositório contendo diversos shaders em GLSL que renderizam fractais em dua
   - [Cogumelo de Menger](#cogumelo-de-menger)
   - [Mandelbulb](#mandelbulb)
   - [Mandelbox](#mandelbox)
+
+## Como compilar
+
+📌 Para compilar qualquer um dos arquivos .glsl neste repositório, você pode seguir estes passos:
+1. Vá para o site [ShaderToy](https://www.shadertoy.com/new).
+2. Você verá uma tela e uma caixa de texto para escrever código. Escolha qual GLSL shader você deseja compilar. Copie e cole o código inteiro do shader escolhido do arquivo para a caixa de texto do ShaderToy.
+3. Clique ALT + ENTER para compilar, e o fractal deve começar a ser renderizado na tela.
+
+Fique a vontade para mexer com os valores e ver o que muda!
+
+Links diretos para cada fractal serão adicionados em breve.
 
 ## Fractais 2D
 
