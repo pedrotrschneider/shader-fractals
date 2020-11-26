@@ -90,7 +90,7 @@ Formal mathematical studies of the Mandelbrot set only began in 1985, with the w
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;D=2"/>
 
-🎨 The easiest way to create a visualization of the Mandelbrot set is to plot it on a computer, using per-pixel operations. To do so, you can convert a complex number, c = a + bi, to pixel coordinates on an image, where a is the X position of the pixel and b is the Y position of the pixel.\
+🎨 The easiest way to create a visualization of the Mandelbrot set is to plot it on a computer, using per-pixel operations. To do so, you can convert a complex number, <img src="https://latex.codecogs.com/svg.latex?\large&space;c=a+bi"/>, to pixel coordinates on an image, where a is the X position of the pixel and b is the Y position of the pixel.\
 A complex c belongs to the Mandelbrot set if the function:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
