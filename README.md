@@ -24,7 +24,7 @@ Versão em PT-BR 🇧🇷 desse documento: [clique aqui](./README.pt-br.md)
 
 ## How to compile
 
-📌 In order to compile any of the .glsl files in this repository, you can follow these steps:
+📌 In order to compile any of the `.glsl` files in this repository, you can follow these steps:
 1. Go to the [ShaderToy](https://www.shadertoy.com/new) website.
 2. You will be presented with a screen and an input-box to write code. Choose the GLSL shader you want to compile. Copy and paste the entire code from the file to ShaderToy.
 3. Click ALT + ENTER to compile, and the fractal should start rendering on the screen.

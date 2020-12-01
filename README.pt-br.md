@@ -22,7 +22,7 @@ Um repositório contendo diversos shaders em GLSL que renderizam fractais em dua
 
 ## Como compilar
 
-📌 Para compilar qualquer um dos arquivos .glsl neste repositório, você pode seguir estes passos:
+📌 Para compilar qualquer um dos arquivos `.glsl` neste repositório, você pode seguir estes passos:
 1. Vá para o site [ShaderToy](https://www.shadertoy.com/new).
 2. Você verá uma tela e uma caixa de texto para escrever código. Escolha qual GLSL shader você deseja compilar. Copie e cole o código inteiro do shader escolhido do arquivo para a caixa de texto do ShaderToy.
 3. Clique ALT + ENTER para compilar, e o fractal deve começar a ser renderizado na tela.
