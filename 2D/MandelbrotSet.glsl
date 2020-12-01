@@ -1,63 +1,14 @@
-/*
-(PT - Br) Documentação em português começa na linha 6.
-(En) English documentation starts on line 31.
-
-(PT - Br)
-Documentação em português:
-Este é um shader voltado para a renderização matemática do Conjunto de Mandelbrot, um dos fractais mais
-conhecidos e utilizados na matemática. Ele é definido por uma função matemática no conjunto dos números
-complexos.
-
-Para a construção desse shader foram utilizadas diversas fontes:
-- The Art of Code: https://www.youtube.com/channel/UCcAlTqd9zID6aNX3TzwxJXg
-- The Coding Train: https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
-- Sebastian Lague: https://www.youtube.com/user/Cercopithecan
-
-Este shader está sob a licença MIT.
-Cheque "License.txt" para detalhes sobre a licensa.
-
-Caso não queira compilar este shader você mesmo, siga esse link para ver ele funcionando:
-<este link não existe ainda, será adicionado nos próximos dias>
-
-Instruções para compilar:
-- Entre no site https://www.shadertoy.com
-- No canto superior direito, clique em "new". Você será redirecionado para uma página com uma caixa
-de texto onde voce pode escrever e uma tela.
-- Apague todo o conteúdo da caixa de texto.
-- Copie este código e cole-o diretamente na ciaxa de texto.
-- Se nada mudar, aperte "alt" + "enter" e o shader deve compilar.
-
-(En)
-English documentation:
-This shader targets to achieve a mathematical render of Mandelbrot's Set, one the best known and most
-used fractals in mathematics. It is defined by a mathematical function on the complex plane.
-
-For the creation of this shader, several resources were used:
-- The Art of Code: https://www.youtube.com/channel/UCcAlTqd9zID6aNX3TzwxJXg
-- The Coding Train: https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
-- Sebastian Lague: https://www.youtube.com/user/Cercopithecan
-
-This shader in under the MIT license.
-Refer to "LICENSE.txt" for the details of the license.
-
-If you don't want to compile this shader yourself, you can follow this link to see it working:
-<this link does not exist yet, but will be added in the following days>
-
-Instructions to compile:
-- Follow this url: https://www.shadertoy.com.
-- On the upper right portion of the screen, click on the "new" button. You will be redirected to a page
-with a text box you can write on and a screen.
-- Delete all the text on the text box.
-- Copy this code and paste it on the text box.
-- If nothing happnes, press "alt" + "enter" and the shader should compile.
-
-Instructions to compile:
-- Follow this url: https://www.shadertoy.com.
-- On the upper right portion of the screen, click on the "new" button. You will be redirected to a page
-with a text box you can write on and a screen.
-- Delete all the text on the text box.
-- Copy this code and paste it on the text box.
-- If nothing happnes, press "alt" + "enter" and the shader should compile.
+/**
+ * @file MandelbrotSet.glsl
+ *
+ * @brief This shader targets to achieve a mathematical render of Mandelbrot's Set, one the best known and most
+ * used fractals in mathematics. It is defined by a mathematical function on the complex plane.
+ *
+ * @author Pedro Schneider <pedrotrschneider@gmail.com>
+ *
+ * @date 06/2020
+ *
+ * Direct link to ShaderToy: <not available yet>
 */
 
 // Method for the mathematical constructoin of the mandelbrot set
