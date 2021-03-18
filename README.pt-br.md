@@ -189,7 +189,7 @@ Para todos os fractais tridimensionais, os recursos usados foram:
 
 ![gif](./media/menger_mushroom.gif)
 
-📌 Como o Brócolli de Mneger, eu construí esse fractal também baseado no memso algoritmo da Esponja de Menger. Na verdade, não se trata nem de apenas um fractal, mas sim de uma coleção de fractais que se transofrmam um no outro para gerar a animação. Ele foi chamado de Cogumelo de Menger também devido ao uso do mesmo algoritmo, e, por algum motivo, ele me lembrou de cogumelos, então ficou no nome.\
+📌 Como o Brócolli de Mneger, eu construí esse fractal também baseado no mesmo algoritmo da Esponja de Menger. Na verdade, não se trata nem de apenas um fractal, mas sim de uma coleção de fractais que se transformam um no outro para gerar a animação. Ele foi chamado de Cogumelo de Menger também devido ao uso do mesmo algoritmo, e, por algum motivo, ele me lembrou de cogumelos, então ficou no nome.\
 Diferente do que aconteceu como o Brócolis de Menger, o shader neste repositório é o original usado para gravar a animação.
 
 🎨 A construção deste fractal será explicada com base no algoritmo, como não há nenhuma definição canônica de sua forma. Ele foi construído utilizando um SDF (Signed Distance Field) com ray-marching, e mais várias outras funções de alteração do espaço, como estão no shader.\
