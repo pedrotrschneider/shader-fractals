@@ -43,7 +43,7 @@ Links diretos para cada fractal serão adicionados em breve.
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{3} = 1,58496..."/>
 
-🎨 Para construir um Triângulo de Sierpinski você pode seguir os seguintes passos:
+🎨 Para construir um Triângulo de Sierpinski você pode seguir esses passos:
 1. Comece com um triângulo em um plano (canonicamente, foi utilizado um triângulo equilátero, mas esses processo pode ser feito utilizando qualquer tipo de triângulo).
 2. Diminua o tamanho do triângulo até que seus lados tenham metade do tamanho original e faça três cópias do triângulo menor, dispondo-as de forma que cada uma encoste em um vértice das outras.
 3. Repita o passo 2 para cada nove figura formada infinitas vezes e você terá o fractal!
@@ -61,7 +61,7 @@ A primeira iteração deste loop resultará em um triângulo de nível 1, a segu
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{8} = 1,8928..."/>
 
-🎨 Para construir um Carpete de Sierpinski você pode seguir os seguintes passos:
+🎨 Para construir um Carpete de Sierpinski você pode seguir esses passos:
 1. Comece com um quadrado em um plano.
 2. Divida-o em 9 quadrados iguais e remova o quadrado menor central, de forma que sobrem os 8 quadrados menores laterais.
 3. Repita o passo 2 infinitas vezes para todos os quadrados em cada iteração e você terá o fractal!
@@ -78,7 +78,7 @@ A primeira iteração deste loop resultará em um carpete de nível 1, a segunda
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{4} = 1,26186..."/>
 
-🎨 Para construir uma Curva de Koch você pode seguir os seguintes passos:
+🎨 Para construir uma Curva de Koch você pode seguir esses passos:
 1. Comece com um segmento de reta ou um triângulo equilátero. Agora, repita os próximos passos recursivamente para cada segmento de reta desenhado.
 2. Divida o segmento de reta em três segmentos de linha de comprimentos iguais.
 3. Use o segmento de reta menor como a base de um triângulo equilátero que aponta para fora (caso tenha utilizado um triângulo equilátero; se não, escolha uma direção para ser "para fora").
