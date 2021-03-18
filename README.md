@@ -191,10 +191,10 @@ For all of the three-dimensional fractals, the resources I used were:
 
 ![gif](./media/menger_mushroom.gif)
 
-📌 Like the Menger Brocolli, I constructed this one myself, also based on the same algortihm I used to render the Menger Sponge. In fact, it isn't even one sigle fractal, but a collection of several fractal shapes merging together to form the animation. I named it Menger Mushroom also because I used the algorithm from the Menger Sponge as a base, and, for some reason, it reminded me of mushrooms, so I went with it.\
-Unlike the brocolli, the shader on this repository is the original shader I used to record the animation.
+📌 Like the Menger Broccoli, I constructed this one myself, also based on the same algorithm I used to render the Menger Sponge. In fact, it isn't even one single fractal, but a collection of several fractal shapes merging together to form the animation. I named it Menger Mushroom also because I used the algorithm from the Menger Sponge as a base, and, for some reason, it reminded me of mushrooms, so I went with it.\
+Unlike the broccoli, the shader on this repository is the original shader I used to record the animation.
 
-🎨 The construction of this fractal will be explained based on the algorithm used, since there is no canonical definition to its shape. It was constructed using a ray-marched Signed Distance Field (SDF) and several other space-altering functinos provided on the shader.\
+🎨 The construction of this fractal will be explained based on the algorithm used, since there is no canonical definition to its shape. It was constructed using a ray-marched Signed Distance Field (SDF) and several other space-altering functions provided on the shader.\
 For all of the three-dimensional fractals, the resources I used were:
 - [Inigo Quilez](http://iquilezles.org)​
 - [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)
