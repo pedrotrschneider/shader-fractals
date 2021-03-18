@@ -253,7 +253,7 @@ function iterate(z):
 
   z = scale * z + c
 ```
-In this case c is the point beeing tested, and "scale" is a real constant that can be chosen in the start of the iterative process to change te form of the fractal.
+In this case c is the point being tested, and "scale" is a real constant that can be chosen in the start of the iterative process to change te form of the fractal.
 
 ---
 
