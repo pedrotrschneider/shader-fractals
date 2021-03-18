@@ -227,8 +227,8 @@ Where:
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\theta=\arccos{\frac{z}{y}}"/>\
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\phi=\arctan{\frac{z}{r}}"/>
 
-The Mandelbulb shown on the video is one constructed with n = 8. Different values of n result in different structures. The flow effect on the video is a result of variying the spherical coordinates of each point continuously.\
-Probably the most common way of constructing this fractal is by using thechniques such as ray-tracing or ray-marching (as used on the shader for this fractal).
+The Mandelbulb shown on the video is one constructed with n = 8. Different values of n result in different structures. The flow effect on the video is a result of varying the spherical coordinates of each point continuously.\
+Probably the most common way of constructing this fractal is by using techniques such as ray-tracing or ray-marching (as used on the shader for this fractal).
 
 ### Mandelbox
 
