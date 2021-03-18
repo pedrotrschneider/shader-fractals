@@ -168,7 +168,7 @@ A similar fractal can be constructed using a square-based pyramid as its base.
 
 🎨 You can construct the Menger Sponge with the following steps:
 1. Start with a cube.
-2. Subdivide each face of the cube in 9 equal sized suqares, like in a Rubik's Cube. This will subdivide the cube in 27 smaller cubes.
+2. Subdivide each face of the cube in 9 equal sized squares, like in a Rubik's Cube. This will subdivide the cube in 27 smaller cubes.
 3. Remove the smaller cubes on the center of each face, and the smaller cube on the very center of the larger cube (leaving a total of 20 cubes).
 4. Now, repeat steps 2 and 3 for each smaller cube infinite times an you have the fractal!
 
