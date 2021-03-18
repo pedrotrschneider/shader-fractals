@@ -1,7 +1,7 @@
 /**
  * @file SierpinskiTetrahedron.glsl
  *
- * @brief This shader targets to achieve a mathematical render of Sierpinski's Tetraheadron, a generalization to
+ * @brief This shader targets to achieve a mathematical render of Sierpinski's Tetrahedron, a generalization to
  * higher dimensions of Sierpinski's Triangle.
  *
  * @author Pedro Schneider <pedrotrschneider@gmail.com>
@@ -9,7 +9,7 @@
  * @date 06/2020
  *
  * Direct link to ShaderToy: <not available yet>
-*/
+ */
 
 #define MaximumRaySteps 100
 #define MaximumDistance 1000.

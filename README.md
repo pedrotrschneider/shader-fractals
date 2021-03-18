@@ -15,7 +15,7 @@ Versão em PT-BR 🇧🇷 desse documento: [clique aqui](./README.pt-br.md)
   - [Mandelbrot Set](#mandelbrot-set)
   - [Julia Set](#julia-set)
 - [3D Fractals](#3d-fractals)
-  - [Sierpinski Tetraheadron](#sierpinski-tetraheadron)
+  - [Sierpinski Tetrahedron](#sierpinski-tetrahedron)
   - [Menger Sponge](#menger-sponge)
   - [Menger Brocolli](#menger-brocolli)
   - [Menger Mushroom](#menger-mushroom)
@@ -136,7 +136,7 @@ By changing the complex c chosen, you can get different images. Interestingly, i
 
 ## 3D Fractals
 
-### Sierpinski Tetraheadron
+### Sierpinski Tetrahedron
 
 ![gif](./media/sierpinski_tetrahedron.gif)
 
@@ -147,12 +147,12 @@ By changing the complex c chosen, you can get different images. Interestingly, i
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{4}=2"/>
 
 🎨 The construction process for a Tetrix is very similar to that of the Sierpinski Triangle:
-1. Start with a tetraheadron of side-length L.
+1. Start with a tetrahedron of side-length L.
 2. Shrink it to half its original height.
-3. Put together four copies of the half-height tetraheadron, so that each of them touch each other in one vertex.
+3. Put together four copies of the half-height tetrahedron, so that each of them touch each other in one vertex.
 4. Repeat steps 2 and 3 for the new shapes each iteration.
 
-The first iteration of this loop will give you a level-1 tetraheadron, the second one will give you a level-2 tetraheadron, and so on. The Sierpinski Tetraheadron itself is the resulting shape after infinite iterations.
+The first iteration of this loop will give you a level-1 tetrahedron, the second one will give you a level-2 tetrahedron, and so on. The Sierpinski Tetrahedron itself is the resulting shape after infinite iterations.
 
 A similar fractal can be constructed using a square-based pyramid as its base.
 
