@@ -174,14 +174,14 @@ A similar fractal can be constructed using a square-based pyramid as its base.
 
 The first iteration of this loop gives you a level-1 sponge, the second one gives you a level-2 sponge, and so on. The Menger Sponge itself is the resulting shape after infinite iterations.
 
-### Menger Brocolli
+### Menger Broccoli
 
 ![gif](./media/menger_brocolli.gif)
 
-📌 This is not a canonical fractal. It was constructed by me while I played with the algorithm I used to render the Menger Sponge and it is not based on any canonical fractal. I named it Menger Brocolli due to the fact that it uses the same algorithm I used for the Menger Sponge, and it also resembles a coliflower or a brocolli.\
-Unfortunately, the original algorithm I used to make that animaiton was lost, and the one provided on this repository is a mere aproximation (I couldn't find the original paramenters I used to make it like in the video).
+📌 This is not a canonical fractal. It was constructed by me while I played with the algorithm I used to render the Menger Sponge and it is not based on any canonical fractal. I named it Menger Broccoli due to the fact that it uses the same algorithm I used for the Menger Sponge, and it also resembles a cauliflower or a broccoli.\
+Unfortunately, the original algorithm I used to make that animation was lost, and the one provided on this repository is a mere approximation (I couldn't find the original parameters I used to make it like in the video).
 
-🎨 The construction of this fractal will be explained based on the algorithm used, since there is no canonical definition to its shape. It was constructed using a ray-marched Signed Distance Field (SDF) and several other space-altering functinos provided on the shader.\
+🎨 The construction of this fractal will be explained based on the algorithm used, since there is no canonical definition to its shape. It was constructed using a ray-marched Signed Distance Field (SDF) and several other space-altering functions provided on the shader.\
 For all of the three-dimensional fractals, the resources I used were:
 - [Inigo Quilez](http://iquilezles.org)​
 - [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)
