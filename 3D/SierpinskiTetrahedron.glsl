@@ -1,59 +1,15 @@
-/*
-(PT - Br) Documentação em português começa na linha 6.
-(En) English documentation starts on line 32.
-
-(PT - Br)
-Documentação em português:
-Este é um shader voltado para a renderização matemática do Tetraedro de Sierpinski, uma generalização
-para maiores dimensões do Triângulo de Sierpinski.
-
-Para a construção desse shader foram utilizadas diversas fontes:
-A fonte mais relevante para essa produção foi o trabalho de Inigo Quilez em fórmulas de SDFs e em
-demonstrações de RayMarching. Todas as outras fontes que serão citadas também o citam como fonte.
-- Inigo Quilez : http://iquilezles.org​
-- Sebastian Lague: https://www.youtube.com/user/Cercopithecan
-- CodeParade: https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw
-
-Este shader está sob a licença MIT.
-Cheque "License.txt" para detalhes sobre a licensa.
-
-Caso não queira compilar este shader você mesmo, siga esse link para ver ele funcionando:
-<este link não existe ainda, será adicionado nos próximos dias>
-
-Instruções para compilar:
-- Entre no site https://www.shadertoy.com
-- No canto superior direito, clique em "new". Você será redirecionado para uma página com uma caixa
-de texto onde voce pode escrever e uma tela.
-- Apague todo o conteúdo da caixa de texto.
-- Copie este código e cole-o diretamente na ciaxa de texto.
-- Se nada mudar, aperte "alt" + "enter" e o shader deve compilar.
-
-(En)
-English documentation:
-This shader targets to achieve a mathematical render of Sierpinski's Tetraheadron, a generalization to
-higher dimensions of Sierpinski's Triangle.
-
-For the creation of this shader, several resources were used:
-The most relevant resource is certainly Inigo Quilez's work on SDFs (Signed Distance Fields) and his
-works on RayMarching. All other resources also cite him as a resource.
-- Inigo Quilez : http://iquilezles.org​
-- Sebastian Lague: https://www.youtube.com/user/Cercopithecan
-- CodeParade: https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw
-
-This shader in under the MIT license.
-Refer to "LICENSE.txt" for the details of the license.
-
-If you don't want to compile this shader yourself, you can follow this link to see it working:
-<this link does not exist yet, but will be added in the following days>
-
-Instructions to compile:
-- Follow this url: https://www.shadertoy.com.
-- On the upper right portion of the screen, click on the "new" button. You will be redirected to a page
-with a text box you can write on and a screen.
-- Delete all the text on the text box.
-- Copy this code and paste it on the text box.
-- If nothing happnes, press "alt" + "enter" and the shader should compile.
-*/
+/**
+ * @file SierpinskiTetrahedron.glsl
+ *
+ * @brief This shader targets to achieve a mathematical render of Sierpinski's Tetrahedron, a generalization to
+ * higher dimensions of Sierpinski's Triangle.
+ *
+ * @author Pedro Schneider <pedrotrschneider@gmail.com>
+ *
+ * @date 06/2020
+ *
+ * Direct link to ShaderToy: <not available yet>
+ */
 
 #define MaximumRaySteps 100
 #define MaximumDistance 1000.

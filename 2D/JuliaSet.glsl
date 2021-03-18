@@ -1,73 +1,31 @@
-/*
-(PT - Br) Documentação em português começa na linha 6.
-(En) English documentation starts on line 30.
+/**
+ * @file JuliaSet.glsl
+ *
+ * @brief This shader targets to achieve a mathematical render of Julia's Set fractals, a subset of the
+ * well known Mandelbrot Set.
+ *
+ * @author Pedro Schneider <pedrotrschneider@gmail.com>
+ *
+ * @date 06/2020
+ *
+ * Direct link to ShaderToy: <not available yet>
+ */
 
-(PT - Br)
-Documentação em português:
-Este é um shader voltado para a renderização matemática de fractais do Conjunto de Julia, tratando-se de
-um subconjunto do Conjunto de Mandelbrot.
-
-Para a construção desse shader foram utilizadas diversas fontes:
-- The Art of Code: https://www.youtube.com/channel/UCcAlTqd9zID6aNX3TzwxJXg
-- The Coding Train: https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
-- Sebastian Lague: https://www.youtube.com/user/Cercopithecan
-
-Este shader está sob a licença MIT.
-Cheque "License.txt" para detalhes sobre a licensa.
-
-Caso não queira compilar este shader você mesmo, siga esse link para ver ele funcionando:
-<este link não existe ainda, será adicionado nos próximos dias>
-
-Instruções para compilar:
-- Entre no site https://www.shadertoy.com
-- No canto superior direito, clique em "new". Você será redirecionado para uma página com uma caixa
-de texto onde voce pode escrever e uma tela.
-- Apague todo o conteúdo da caixa de texto.
-- Copie este código e cole-o diretamente na ciaxa de texto.
-- Se nada mudar, aperte "alt" + "enter" e o shader deve compilar.
-
-(En)
-English documentation:
-This shader targets to achieve a mathematical render of Julia's Set fractals, beeing a subset of the
-well known Mandelbrot Set.
-
-For the creation of this shader, several resources were used:
-- The Art of Code: https://www.youtube.com/channel/UCcAlTqd9zID6aNX3TzwxJXg
-- The Coding Train: https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
-- Sebastian Lague: https://www.youtube.com/user/Cercopithecan
-
-This shader in under the MIT license.
-Refer to "LICENSE.txt" for the details of the license.
-
-If you don't want to compile this shader yourself, you can follow this link to see it working:
-<this link does not exist yet, but will be added in the following days>
-
-Instructions to compile:
-- Follow this url: https://www.shadertoy.com.
-- On the upper right portion of the screen, click on the "new" button. You will be redirected to a page
-with a text box you can write on and a screen.
-- Delete all the text on the text box.
-- Copy this code and paste it on the text box.
-- If nothing happnes, press "alt" + "enter" and the shader should compile.
-*/
-
-#define RECURSION_LIMIT 10000.0
+#define RECURSION_LIMIT 10000
 #define PI 3.141592653589793238
 
 // Method for the mathematical construction of the julia set
-float juliaSet (vec2 c, vec2 constant) {
-  float recursionCount = 0.0;
+int juliaSet (vec2 c, vec2 constant) {
+  int recursionCount;
 
   vec2 z = c;
 
-  for (float i = 0.0; i < RECURSION_LIMIT; i++) {
+  for (recursionCount = 0; recursionCount < RECURSION_LIMIT; recursionCount++) {
     z = vec2 (z.x * z.x - z.y * z.y, 2.0 * z.x * z.y) + constant;
 
     if (length (z) > 2.0) {
       break;
     }
-
-    recursionCount++;
   }
 
   return recursionCount;
@@ -95,8 +53,8 @@ void mainImage (out vec4 fragColor, in vec2 fragCoord) {
   uv *= 0.9;
 
   vec2 c = uv;
-  float recursionCount = juliaSet (c, constants[3]);
-  float f = recursionCount / RECURSION_LIMIT;
+  int recursionCount = juliaSet (c, constants[3]);
+  float f = float(recursionCount) / float(RECURSION_LIMIT);
 
   float offset = 0.5;
   vec3 saturation = vec3 (1.0, 1.0, 1.0);
