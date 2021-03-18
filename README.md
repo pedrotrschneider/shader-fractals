@@ -182,7 +182,7 @@ The first iteration of this loop gives you a level-1 sponge, the second one give
 Unfortunately, the original algorithm I used to make that animaiton was lost, and the one provided on this repository is a mere aproximation (I couldn't find the original paramenters I used to make it like in the video).
 
 🎨 The construction of this fractal will be explained based on the algorithm used, since there is no canonical definition to its shape. It was constructed using a ray-marched Signed Distance Field (SDF) and several other space-altering functinos provided on the shader.\
-There are some great resources to learn about these concepts, and they are all mentioned in the documentation of each individual shader. For all of the three-dimensional fractals, the resources I used were:
+For all of the three-dimensional fractals, the resources I used were:
 - [Inigo Quilez](http://iquilezles.org)​
 - [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)
 - [Code Parade](https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw)
@@ -195,7 +195,7 @@ There are some great resources to learn about these concepts, and they are all m
 Unlike the brocolli, the shader on this repository is the original shader I used to record the animation.
 
 🎨 The construction of this fractal will be explained based on the algorithm used, since there is no canonical definition to its shape. It was constructed using a ray-marched Signed Distance Field (SDF) and several other space-altering functinos provided on the shader.\
-There are some great resources to learn about these concepts, and they are all mentioned in the documentation of each individual shader. For all of the three-dimensional fractals, the resources I used were:
+For all of the three-dimensional fractals, the resources I used were:
 - [Inigo Quilez](http://iquilezles.org)​
 - [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)
 - [Code Parade](https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw)

@@ -180,7 +180,7 @@ A primeira iteração deste loop resultará em uma esponja de nível 1, a segund
 Infelizmente, o algoritmo original que usei para fazer o vídeo foi perdido, e o que está neste repositório é apenas uma aproximação do fractal original (eu não consegui encontrar os parâmetros originais que usei para o vídeo).
 
 🎨 A construção deste fractal será explicada com base no algoritmo, como não há nenhuma definição canônica de sua forma. Ele foi construído utilizando um SDF (Signed Distance Field) com ray-marching, e mais várias outras funções de alteração do espaço, como estão no shader.\
-Há diversos ótimos recursos para aprender sobre estes conceitos, e eles são todos mencionados nas documentações espcíficas dos shaders. Para todos os fractais tridimensionais, os recursos usados foram:
+Para todos os fractais tridimensionais, os recursos usados foram:
 - [Inigo Quilez](http://iquilezles.org​)
 - [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)
 - [Code Parade](https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw)
@@ -193,7 +193,7 @@ Há diversos ótimos recursos para aprender sobre estes conceitos, e eles são t
 Diferente do que aconteceu como o Brócolis de Menger, o shader neste repositório é o original usado para gravar a animação.
 
 🎨 A construção deste fractal será explicada com base no algoritmo, como não há nenhuma definição canônica de sua forma. Ele foi construído utilizando um SDF (Signed Distance Field) com ray-marching, e mais várias outras funções de alteração do espaço, como estão no shader.\
-Há diversos ótimos recursos para aprender sobre estes conceitos, e eles são todos mencionados nas documentações espcíficas dos shaders. Para todos os fractais tridimensionais, os recursos usados foram:
+Para todos os fractais tridimensionais, os recursos usados foram:
 - [Inigo Quilez](http://iquilezles.org​)
 - [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)
 - [Code Parade](https://www.youtube.com/channel/UCrv269YwJzuZL3dH5PCgxUw)
