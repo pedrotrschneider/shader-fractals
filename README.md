@@ -130,7 +130,7 @@ The set is named after the French mathematician Gaston Julia
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;D=2"/>
 
 🎨 The Julia set can't be plotted as one single image, due to the infinite possible values of c. Because of that, you must first choose a value of c you want to plot for.\
-The rest of the process is essentialy the same as the one used to plot the Mandelbrot set: by transforming complex numbers to pixel coordinates, you can iterate f<sub>c</sub> for each complex number corresponding to each pixel on the image and color it based on the number of iterations it takes to diverge.\
+The rest of the process is essentially the same as the one used to plot the Mandelbrot set: by transforming complex numbers to pixel coordinates, you can iterate f<sub>c</sub> for each complex number corresponding to each pixel on the image and color it based on the number of iterations it takes to diverge.\
 Pixel coordinates to plot the Julia fractals should also be normalized to no exceed |2| on any axis, just like with the Mandelbrot set.\
 By changing the complex c chosen, you can get different images. Interestingly, if c ∈ Mandelbrot set, the corresponding Julia fractal will be one solid shape (refer to screenshot 2), and if c ∉ Mandelbrot set, the corresponding Julia fractal will not be just one solid shape, but a collection of disjointed shapes (refer to screenshot 1).
 
