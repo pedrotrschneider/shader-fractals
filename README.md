@@ -46,7 +46,7 @@ Direct links to each fractal will be added shortly.
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{3} = 1,58496..."/>
 
 🎨 To construct the Sierpinski Triangle you can follow these steps:
-1. Start with a tringle on a plane (canonically, an equilateral triangle was used, but any sort of triangle will do just fine).
+1. Start with a triangle on a plane (canonically, an equilateral triangle was used, but any sort of triangle will do just fine).
 2. Shrink the triangle until it's sides are half the original size and make three copies of the small version, placing them so that each one touches the others on one vertex.
 3. Repeat step 2 for each new figure infinite times and you'll have the fractal!
 
