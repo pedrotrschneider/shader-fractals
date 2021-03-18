@@ -72,7 +72,7 @@ A primeira iteração deste loop resultará em um carpete de nível 1, a segunda
 
 ![gif](./media/koch_curve.gif)
 
-📌 Este fractal foi demonstrado pela primeira vez em 1904 em um artigo chamado "Em uma Curva Contínua Sem Tangentes, Que Pode Ser Construída Com Matemática Elementar", pelo matempatico sueco Helge Von Koch.
+📌 Este fractal foi demonstrado pela primeira vez em 1904 em um artigo chamado "Em uma Curva Contínua Sem Tangentes, Que Pode Ser Construída Com Matemática Elementar", pelo matemático sueco Helge Von Koch.
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
