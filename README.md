@@ -257,4 +257,4 @@ In this case c is the point beeing tested, and "scale" is a real constant that c
 
 ---
 
-These are all of the fractals present in this repository. Thanks goes to all resources cited both in this document and on the shaders specific documentations. And also, thank you for reading!
+These are all of the fractals present in this repository. Thanks goes to all resources cited both in this document. And also, thank you for reading!

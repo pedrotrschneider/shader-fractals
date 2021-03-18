@@ -255,4 +255,4 @@ Neste caso, c é o ponto sendo testado, e "scale" é uma constante real que pode
 
 ---
 
-Estes são todos os fractais presentes neste repositório. Agradeço a todos os donos dos recursos que foram citados tanto neste documento quanto na documentação específica de cada shader. E por fim, obrigado por ler!
+Estes são todos os fractais presentes neste repositório. Agradeço a todos os donos dos recursos que foram citados tanto neste documento. E por fim, obrigado por ler!
