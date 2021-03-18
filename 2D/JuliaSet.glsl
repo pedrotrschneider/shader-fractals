@@ -9,25 +9,23 @@
  * @date 06/2020
  *
  * Direct link to ShaderToy: <not available yet>
-*/
+ */
 
-#define RECURSION_LIMIT 10000.0
+#define RECURSION_LIMIT 10000
 #define PI 3.141592653589793238
 
 // Method for the mathematical construction of the julia set
-float juliaSet (vec2 c, vec2 constant) {
-  float recursionCount = 0.0;
+int juliaSet (vec2 c, vec2 constant) {
+  int recursionCount;
 
   vec2 z = c;
 
-  for (float i = 0.0; i < RECURSION_LIMIT; i++) {
+  for (recursionCount = 0; recursionCount < RECURSION_LIMIT; recursionCount++) {
     z = vec2 (z.x * z.x - z.y * z.y, 2.0 * z.x * z.y) + constant;
 
     if (length (z) > 2.0) {
       break;
     }
-
-    recursionCount++;
   }
 
   return recursionCount;
@@ -55,8 +53,8 @@ void mainImage (out vec4 fragColor, in vec2 fragCoord) {
   uv *= 0.9;
 
   vec2 c = uv;
-  float recursionCount = juliaSet (c, constants[3]);
-  float f = recursionCount / RECURSION_LIMIT;
+  int recursionCount = juliaSet (c, constants[3]);
+  float f = float(recursionCount) / float(RECURSION_LIMIT);
 
   float offset = 0.5;
   vec3 saturation = vec3 (1.0, 1.0, 1.0);

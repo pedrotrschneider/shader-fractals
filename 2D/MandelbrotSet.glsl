@@ -11,20 +11,20 @@
  * Direct link to ShaderToy: <not available yet>
 */
 
+#define RECURSION_LIMIT 10000
+
 // Method for the mathematical constructoin of the mandelbrot set
-float mandelbrot (vec2 c, float RECURSION_LIMIT) {
-  float recursionCount = 0.0;
+int mandelbrot (vec2 c) {
+  int recursionCount;
 
   vec2 z = vec2 (0.0, 0.0);
 
-  for (float i = 0.0; i < RECURSION_LIMIT; i++) {
+  for (recursionCount = 0; recursionCount < RECURSION_LIMIT; recursionCount++) {
     z = vec2 (z.x * z.x - z.y * z.y, 2.0 * z.x * z.y) + c;
 
     if (length (z) > 2.0) {
       break;
     }
-
-    recursionCount++;
   }
 
   return recursionCount;
@@ -48,18 +48,17 @@ void mainImage (out vec4 fragColor, in vec2 fragCoord) {
   float zoom = pow (time, time / 10.0);
   vec3 col = vec3 (1.0); // Color to be drawn on the screen
 
-  float RECURSION_LIMIT = 10000.0; // Maximum number of iterations to test
 
   uv /= (zoom); // Scales the uv based of the zoom
   vec2 c = uv; // Initializes c as the current pixel position
   c += locations[3]; // Offsets the current pixel position to put the desired location in the middle
 
-  float recursionCount = mandelbrot (c, RECURSION_LIMIT); // Calculates the amount of iterations until the point went out of bounds
+  int recursionCount = mandelbrot (c); // Calculates the amount of iterations until the point went out of bounds
 
-  float f = recursionCount / RECURSION_LIMIT; // Puts the amount of iterations in range [0, 1]
+  float f = float(recursionCount) / float(RECURSION_LIMIT); // Puts the amount of iterations in range [0, 1]
 
   // Coloring the fractal
-  if (f == 1.0) { // If it is in the mandelbrot set itself, colors black
+  if (recursionCount == RECURSION_LIMIT) { // If it is in the mandelbrot set itself, colors black
     col.r = 0.0;
     col.b = 0.0;
     col.g = 0.0;
