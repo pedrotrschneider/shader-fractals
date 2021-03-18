@@ -1,7 +1,7 @@
 /**
  * @file JuliaSet.glsl
  *
- * @brief This shader targets to achieve a mathematical render of Julia's Set fractals, beeing a subset of the
+ * @brief This shader targets to achieve a mathematical render of Julia's Set fractals, a subset of the
  * well known Mandelbrot Set.
  *
  * @author Pedro Schneider <pedrotrschneider@gmail.com>
