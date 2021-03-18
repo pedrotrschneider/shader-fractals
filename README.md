@@ -160,7 +160,7 @@ A similar fractal can be constructed using a square-based pyramid as its base.
 
 ![gif](./media/menger_sponge.gif)
 
-📌 This fractal is a three-dimensional generalization of the two-dimensional Sierpinski Carpet, and, likewise, also a generalization of the one-dimensional Cantor Set. It was first described by Karl Menger in 1925, during his studies of topological dimnesnions.
+📌 This fractal is a three-dimensional generalization of the two-dimensional Sierpinski Carpet, and, likewise, also a generalization of the one-dimensional Cantor Set. It was first described by Karl Menger in 1925, during his studies of topological dimensions.
 
 ➕ It has fractal (Hausdorff) dimension of:
 
