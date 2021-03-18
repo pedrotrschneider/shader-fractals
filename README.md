@@ -212,7 +212,7 @@ For all of the three-dimensional fractals, the resources I used were:
 
 This is, however, only been conjectured, and has not been proven as of the creation of this repository.
 
-🎨 The Mandelbulb is defined as the set o points c in  ℝ<sup>3</sup> that, under the iteratoin of the function:
+🎨 The Mandelbulb is defined as the set o points c in  ℝ<sup>3</sup> that, under the iteration of the function:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(v)=v^n+c"/>
 
