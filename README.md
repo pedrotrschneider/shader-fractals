@@ -234,8 +234,8 @@ Probably the most common way of constructing this fractal is by using techniques
 
 ![gif](./media/mandelbox.gif)
 
-📌 A Mandelbox is not a specific fractal, unlike most of the ones covered so far. It can take many forms, but, generaly, can be described as fractal with a boxlike shape, and it was first found by Tom Lowe in 2010.\
-It is similar to the Mandelbrot set in the same way the Mandelbulb is similar to it: it is defined as a set of values of a parameter such that the origin (in ℝ<sup>3</sup>, (0, 0, 0)) does not diverge under inifinite iteration of a certain geometrical transformation. It can can also be defined as a map of continuous Julia sets, but can be generalized to any dimension, unlike the Mandelbrot set.
+📌 A Mandelbox is not a specific fractal, unlike most of the ones covered so far. It can take many forms, but, generally, can be described as fractal with a boxlike shape, and it was first found by Tom Lowe in 2010.\
+It is similar to the Mandelbrot set in the same way the Mandelbulb is similar to it: it is defined as a set of values of a parameter such that the origin (in ℝ<sup>3</sup>, (0, 0, 0)) does not diverge under infinite iteration of a certain geometrical transformation. It can can also be defined as a map of continuous Julia sets, but can be generalized to any dimension, unlike the Mandelbrot set.
 
 🎨 The Mandelbox is defined as a set of points in space that do not diverge under the following iteration:
 ```python
