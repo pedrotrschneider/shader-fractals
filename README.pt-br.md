@@ -55,7 +55,7 @@ A primeira iteração deste loop resultará em um triângulo de nível 1, a segu
 ![gif](./media/sierpinski_carpet.gif)
 
 📌 Este fractal foi descrito pelo mesmo Waclaw Sierpinski que desenvolveu o Triângulo de Sierpinski. Essa é uma criação menos conhecida do matemático.\
-É uma generalização bidimensional do fractal unidimensional do Conjunto de Cantor
+É uma generalização bidimensional do fractal unidimensional do Conjunto de Cantor.
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
