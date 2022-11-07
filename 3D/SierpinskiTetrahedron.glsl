@@ -145,7 +145,7 @@ float map (float value, float min1, float max1, float min2, float max2) {
   return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
 }
 
-float sierpinski3 (out vec3 z) {
+float sierpinski3 (vec3 z) {
   float iterations = 15.0;
   float Scale = 2.0;
   float Offset = 3.0;
@@ -164,7 +164,7 @@ float sierpinski3 (out vec3 z) {
 }
 
 // Calculates de distance from a position p to the scene
-float DistanceEstimator (out vec3 p) {
+float DistanceEstimator (vec3 p) {
   p.yz *= Rotate (0.20 * PI);
   p.yx *= Rotate (0.25 * PI);
   float sierpinski = sierpinski3 (p);
