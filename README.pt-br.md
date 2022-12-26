@@ -12,7 +12,7 @@ Um repositório contendo diversos shaders em GLSL que renderizam fractais em dua
   - [Curva de Koch](#curva-de-koch)
   - [Conjunto de Mandelbrot](#conjunto-de-mandelbrot)
   - [Conjunto de Julia](#conjunto-de-julia)
-- [Fractais 3D](#fractais-3D)
+- [Fractais 3D](#fractais-3d)
   - [Tetraedro de Sierpinski](#tetraedro-de-sierpinski)
   - [Esponja Menger](#esponja-de-menger)
   - [Brócolis de Menger](#brócolis-de-menger)
@@ -41,7 +41,9 @@ Links diretos para cada fractal serão adicionados em breve.
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{3} = 1,58496..."/>
+$$
+D = log_{2}{3} = 1.58496...
+$$
 
 🎨 Para construir um Triângulo de Sierpinski você pode seguir esses passos:
 1. Comece com um triângulo em um plano (canonicamente, foi utilizado um triângulo equilátero, mas esses processo pode ser feito utilizando qualquer tipo de triângulo).
@@ -59,7 +61,9 @@ A primeira iteração deste loop resultará em um triângulo de nível 1, a segu
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{8} = 1,8928..."/>
+$$
+D = log_{2}{8} = 1.8928...
+$$
 
 🎨 Para construir um Carpete de Sierpinski você pode seguir esses passos:
 1. Comece com um quadrado em um plano.
@@ -76,7 +80,9 @@ A primeira iteração deste loop resultará em um carpete de nível 1, a segunda
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{4} = 1,26186..."/>
+$$
+D = log_{2}{4} = 1.26186...
+$$
 
 🎨 Para construir uma Curva de Koch você pode seguir esses passos:
 1. Comece com um segmento de reta ou um triângulo equilátero. Agora, repita os próximos passos recursivamente para cada segmento de reta desenhado.
@@ -98,12 +104,16 @@ Estudos matemáticos formais do conjunto de Mandelbrot começaram apenas em 1985
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=2"/>
+$$
+D = 2
+$$
 
 🎨 A forma mais fácil de criar uma visualização do conjunto de Mandelbrot é plotando em um computador, usando operações por pixel. Para fazer isso, você pode converter um número complexo c = a + bi para coordenadas de pixel, onde "a" é a posição do pixel no eixo X e "b" é a posição do pixel no eixo Y.\
 Um número complexo c pertence ao conjunto de mandelbrot se a função:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
+$$
+f_{c}(z) = z^2 + c
+$$
 
 não diverge com z começando na origem quando iterada infinitas vezes.\
 Aplicando esta recursão para cada número complexo correspondente a cada pixel de uma imagem, e colorindo os pixels baseado na quantidade de iterações que levou para eles divergirem, é possível conseguir uma figura semelhante à mostrada no vídeo.\
@@ -117,7 +127,9 @@ Aplicando esta recursão para cada número complexo correspondente a cada pixel 
 
 📌 Definimos:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
+$$
+f_{c}(z) = z^2 + c
+$$
 
 onde z e c são números no plano dos complexos. O conjunto de Julia pode ser então definido como o conjunto de números complexos z que, sob iteração em f<sub>c</sub> não divergem.\
 c pode ser qualquer número complexo, mas deve permanecer constante após ser escolihdo para cada fractal. Para cada c diferente, há um conjunto diferente de z's que seguem a regra descrita.\
@@ -125,7 +137,9 @@ O conjunto foi nomeado em homenagem ao matemático francês Gaston Julia.
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=2"/>
+$$
+D = 2
+$$
 
 🎨 O conjunto de Julia não pode ser plotado como uma única imagem, devido ao infinito número de possibilidades para a escolha de c. Portanto, o primeiro passo é escolher um valor para c.\
 O resto do processo é essencialmente o mesmo ao do conjunto de Mandelbrot: transformando os números complexos em coordenadas de pixels, você pode iterar f<sub>c</sub> para o número complexo correspondente a cada pixel na imagem, e colorir eles baseado no número de iterações que ele levou para divergir.\
@@ -142,7 +156,9 @@ Mudando o valor do complexo c escolhido, pode-se mudar a imagem resultante. Curi
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{4}=2"/>
+$$
+D = log_{2}{4} = 2
+$$
 
 🎨 A construção de um Tetrix é muito similar ao do Triângulo de Sierpinski:
 1. Comece com um tetraedro de lado L.
@@ -162,7 +178,9 @@ Um fractal similar pode ser construído utilizando uma pirâmide de base quadrad
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{3}{20}=2,7268..."/>
+$$
+D = log_{3}{20} = 2.7268...
+$$
 
 🎨 Uma Esponja de Menger pode ser construída com os seguintes passos:
 1. Comece com um cubo.
@@ -206,24 +224,38 @@ Para todos os fractais tridimensionais, os recursos usados foram:
 
 ➕ Ele possui dimensão fractal (de Hausdorff) de:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=3"/>
+$$
+D = 3
+$$
 
 Isso, no entanto, foi apenas conjecturado, e ainda não foi provado.
 
 🎨 O Mandelbulb é definido como um conjunto de pontos c no ℝ<sup>3</sup> que, sob iteração da função:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(v)=v^n+c"/>
+$$
+f_{c}(v) = v^n + c
+$$
 
 com v começando em (0, 0, 0) não diverge.\
 A n<sup>ésima</sup> potência do vetor v = (x, y, z)  no ℝ<sup>3</sup> é definida como:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;v^n:=r^n(\sin{(n\theta)}\cos{(n\phi)},\sin{(n\theta)}\sin{(n\phi)},\cos{(n\theta)})"/>
+$$
+v^n := r^n (sin(n\theta) cos(n\phi), sin(n\theta) sin(n\phi), cos)(n\theta)
+$$
 
 Onde:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;r=\sqrt{x^2+y^2+z^2}"/>\
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\theta=\arccos{\frac{z}{y}}"/>\
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\phi=\arctan{\frac{z}{r}}"/>
+$$
+r = sqrt{x^2 + y^2 + z^2}
+$$
+
+$$
+\theta = arccos(\frac{z}{y})
+$$
+
+$$
+\phi = arctan(\frac{z}{r})
+$$
 
 O Mandlebulb mostrado no vídeo foi construído com n = 8. Diferentes valores de n resultam em diferentes estruturas. O efeito fluido no vídeo foi feito variando as coordenadas esféricas de cada ponto da forma continuamente.\
 Possivelmente a maneira mais comum de construir este fractal é utilizando técnicas como ray-tracing ou ray-marching (como foi usado no shader deste fractal).

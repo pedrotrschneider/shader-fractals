@@ -17,7 +17,7 @@ Versão em PT-BR 🇧🇷 desse documento: [clique aqui](./README.pt-br.md)
 - [3D Fractals](#3d-fractals)
   - [Sierpinski Tetrahedron](#sierpinski-tetrahedron)
   - [Menger Sponge](#menger-sponge)
-  - [Menger Broccoli](#menger-broccolli)
+  - [Menger Broccoli](#menger-broccoli)
   - [Menger Mushroom](#menger-mushroom)
   - [Mandelbulb](#mandelbulb)
   - [Mandelbox](#mandelbox)
@@ -43,7 +43,9 @@ Direct links to each fractal will be added shortly.
 
 ➕ It has fractal (Hausdorff) dimension of:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{3} = 1,58496..."/>
+$$
+D = log_{2}{3} = 1.58496...
+$$
 
 🎨 To construct the Sierpinski Triangle you can follow these steps:
 1. Start with a triangle on a plane (canonically, an equilateral triangle was used, but any sort of triangle will do just fine).
@@ -56,12 +58,14 @@ The first iteration of this loop gives you a level-1 triangle, the second one gi
 
 ![gif](./media/sierpinski_carpet.gif)
 
-📌 This fractal was described by the same Waclaw Sierpinski, who developed the Sierpinski Traingle. This one is a lesser known creation from the mathematician.\
+📌 This fractal was described by the same Waclaw Sierpinski, who developed the Sierpinski Triangle. This one is a lesser known creation from the mathematician.\
 It is a two-dimensional generalization of the one-dimensional Cantor Set.
 
 ➕ It has fractal (Hausdorff) dimension of:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{8} = 1,8928..."/>
+$$
+D = log{2}{8} = 1.8928...
+$$
 
 🎨 To construct the Sierpinski Carpet you can follow these steps:
 1. Start with a square on a plane.
@@ -78,7 +82,9 @@ The first iteration of this loop gives you a level-1 carpet, the second one give
 
 ➕ It has fractal (Hausdorff) dimension of:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{4} = 1,26186..."/>
+$$
+D = log_{2}{4} = 1.26186...
+$$
 
 🎨 To construct the Koch Curve you can follow these steps:
 1. Start with either a line segment or an equilateral triangle. Now, repeat the next steps recursively for each line segment you draw.
@@ -95,17 +101,21 @@ The first iteration of this loop gives you a level-1 curve, the second one gives
 
 📌 This fractal is defined as a set of numbers c in the complex plane that obey a certain rule. It's one the most famous fractals to date. It was first investigated in the early 20<sup>th</sup> century by the French mathematicians Pierre Fatou and Gaston Julia.\
 It was then defined and drawn by Robert W. Brooks and Peter Matelski in 1978, as a part of a study about Kleinian groups.\
-However, it's name comes from the person who first plotted a visualization of the set on a computer, Benoit Mandelbrot, on March 1<sup>st</sup> 1980, at IBM's (International Buisiness Machines Corporation) research division. He also studied several other topics regarding fractal geometry.\
+However, it's name comes from the person who first plotted a visualization of the set on a computer, Benoit Mandelbrot, on March 1<sup>st</sup> 1980, at IBM's (International Business Machines Corporation) research division. He also studied several other topics regarding fractal geometry.\
 Formal mathematical studies of the Mandelbrot set only began in 1985, with the works of mathematicians Adrien Douady and John H. Hubbard, who established many of its fundamental properties, and finally named the fractal in honor of Benoit Mandelbrot's influential works in fractal geometry.
 
 ➕ It has fractal (Hausdorff) dimension of:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=2"/>
+$$
+D = 2
+$$
 
-🎨 The easiest way to create a visualization of the Mandelbrot set is to plot it on a computer, using per-pixel operations. To do so, you can convert a complex number, <img src="https://latex.codecogs.com/svg.latex?\large&space;c=a+bi"/>, to pixel coordinates on an image, where a is the X position of the pixel and b is the Y position of the pixel.\
+🎨 The easiest way to create a visualization of the Mandelbrot set is to plot it on a computer, using per-pixel operations. To do so, you can convert a complex number, $c = a + bi$, to pixel coordinates on an image, where a is the X position of the pixel and b is the Y position of the pixel.\
 A complex c belongs to the Mandelbrot set if the function:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
+$$
+f_{c}(z) = z^2 + c
+$$
 
 does not diverge with z starting at 0 when under infinite recursion.\
 By applying this recursion to every complex number that corresponds to each pixel on an image, and coloring it based on the number of iterations it takes to diverge, you can get an image similar to the one shown on the gif.\
@@ -119,7 +129,9 @@ All pixel coordinates should be normalized to not exceed |2| on any axis, since 
 
 📌 Let:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(z)=z^2+c"/>
+$$
+f_{c}(z) = z^2 + c
+$$
 
 where z and c are numbers on the complex plane. The Julia set can then be defined as the set of complex numbers z that under infinite iteration by f<sub>c</sub> do not diverge.\
 c can be any complex number, as long as it does not change during recursion. For each different c there is a different set o z's that follow the described rule.\
@@ -127,7 +139,9 @@ The set is named after the French mathematician Gaston Julia
 
 ➕ It has fractal (Hausdorff) dimension of:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=2"/>
+$$
+D = 2
+$$
 
 🎨 The Julia set can't be plotted as one single image, due to the infinite possible values of c. Because of that, you must first choose a value of c you want to plot for.\
 The rest of the process is essentially the same as the one used to plot the Mandelbrot set: by transforming complex numbers to pixel coordinates, you can iterate f<sub>c</sub> for each complex number corresponding to each pixel on the image and color it based on the number of iterations it takes to diverge.\
@@ -144,7 +158,9 @@ By changing the complex c chosen, you can get different images. Interestingly, i
 
 ➕ It has fractal (Hausdorff) dimension of:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{2}{4}=2"/>
+$$
+D = log_{2}{4} = 2
+$$
 
 🎨 The construction process for a Tetrix is very similar to that of the Sierpinski Triangle:
 1. Start with a tetrahedron of side-length L.
@@ -164,7 +180,9 @@ A similar fractal can be constructed using a square-based pyramid as its base.
 
 ➕ It has fractal (Hausdorff) dimension of:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=\log_{3}{20}=2,7268..."/>
+$$
+D = log_{3}{20} = 2.7268...
+$$
 
 🎨 You can construct the Menger Sponge with the following steps:
 1. Start with a cube.
@@ -208,24 +226,38 @@ For all of the three-dimensional fractals, the resources I used were:
 
 ➕ It has fractal (Hausdorff) dimension of:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;D=3"/>
+$$
+D = 3
+$$
 
 This is, however, only been conjectured, and has not been proven as of the creation of this repository.
 
 🎨 The Mandelbulb is defined as the set o points c in  ℝ<sup>3</sup> that, under the iteration of the function:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f_{c}(v)=v^n+c"/>
+$$
+f_{c}(v) = v^n + c
+$$
 
 with v starting at (0, 0, 0) does not diverge.\
 The n<sup>th</sup> power of the vector v = (x, y, z) in ℝ<sup>3</sup> is defined as:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;v^n:=r^n(\sin{(n\theta)}\cos{(n\phi)},\sin{(n\theta)}\sin{(n\phi)},\cos{(n\theta)})"/>
+$$
+v^n := r^n (sin(n\theta) cos(n\phi), sin(n\theta) sin(n\phi), cos)(n\theta)
+$$
 
 Where:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;r=\sqrt{x^2+y^2+z^2}"/>\
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\theta=\arccos{\frac{z}{y}}"/>\
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\phi=\arctan{\frac{z}{r}}"/>
+$$
+r = sqrt{x^2 + y^2 + z^2}
+$$
+
+$$
+\theta = arccos(\frac{z}{y})
+$$
+
+$$
+\phi = arctan(\frac{z}{r})
+$$
 
 The Mandelbulb shown on the video is one constructed with n = 8. Different values of n result in different structures. The flow effect on the video is a result of varying the spherical coordinates of each point continuously.\
 Probably the most common way of constructing this fractal is by using techniques such as ray-tracing or ray-marching (as used on the shader for this fractal).
