@@ -8,7 +8,7 @@
  *
  * @date 06/2020
  *
- * Direct link to ShaderToy: https://www.shadertoy.com/view/mtGfWt
+ * Direct link to ShaderToy: https://www.shadertoy.com/view/dtyBWt
 */
 
 #define MaximumRaySteps 2500
